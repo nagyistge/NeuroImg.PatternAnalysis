@@ -10,3 +10,10 @@ def single_gamma(x, lag=6, b=0.9):
     a = lag
     d = a * b
     return (x/d)**a * np.exp(-(x-d)/b)
+
+def return_some_objects():
+
+    obj1 = (5, 3, 2)
+    obj2 = True
+    obj3 = 5.3216
+    return(obj1, obj2, obj3)
