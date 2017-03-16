@@ -17,3 +17,7 @@ def return_some_objects():
     obj2 = True
     obj3 = 5.3216
     return(obj1, obj2, obj3)
+
+def sort_nifti_paths(paths, idf='tstat'):
+
+    return sorted(paths, key=lambda x: int(op.basename(x).split('.')[0].split(idf)[-1]))
