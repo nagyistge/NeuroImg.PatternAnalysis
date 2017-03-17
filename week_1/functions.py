@@ -1,4 +1,5 @@
 import numpy as np
+import os.path as op
 
 def double_gamma(x, lag=6, a2=12, b1=0.9, b2=0.9, c=0.35):
     a1 = lag
