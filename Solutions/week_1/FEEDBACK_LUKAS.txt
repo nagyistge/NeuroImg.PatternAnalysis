@@ -1,0 +1,47 @@
+Han:
+
+- Assignment 1: perfect
+- Assignment 2: perfect
+- Feedback: well done Han! Very clear and efficient code.
+- Grade: 10
+
+Hidde/Jolien:
+
+- Assignment 1: perfect
+- Assigment 2: aaaaalmost perfect (6.5/7)
+
+Feedback: first of all, very smart to first load in just one file to check out the voxel-dims (instead of hard-coding it)! The rest of your code was also perfectly fine, except for that you made one tinyyy mistake: you accidentally tried to threshold the loaded_mask variable - which is a Nifti1Image object (not an array! which is only created after calling the method get_data()) - instead of the "mask" variable. So, you did: "booled = loaded_mask > threshold", but you should have done: "booled = mask > threshold". Apart from that, well done.
+
+- Grade: 9.5
+
+Lauren/Hanneke:
+
+- Assignment 1: perfect
+- Assignment 2: perfect
+- Feedback: well done! Clear and efficient code.
+- Grade: 10
+
+Scarlett/Jurriaan:
+
+- Assignment 1: perfect
+- Assignment 2: a little inefficient (no need for for-loops! You can use broadcasting, like the temporal demeaning procedure you implemented earlier), but nonetheless correct!
+- Feedback: well done!
+- Grade: 10/10
+
+Susanne/Jessica:
+
+- Assignment 1: perfect
+- Assignment 2: perfect
+- Feedback: clear and efficient code and good implementations!
+- Grade 10/10
+
+Timo:
+
+- Assignment 1: almost perfect. The range refers to the argument of the plt.hist() function, not the limit of the figure itself!
+- Assignment 2: perfect.
+- Grade: 9.5
+
+
+
+
+
